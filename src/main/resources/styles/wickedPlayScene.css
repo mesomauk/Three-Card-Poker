@@ -1,0 +1,97 @@
+.label {
+    -fx-text-fill: white;
+}
+
+
+.text-area {
+    -fx-background-radius: 10;
+    -fx-control-inner-background: #882f6e;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .content {
+    -fx-background-color: #882f6e;
+    -fx-background-radius: 10;
+}
+
+
+.button {
+    -fx-text-fill: white;
+}
+
+.bet-circle {
+    -fx-fill: transparent;
+    -fx-stroke: #163f11;
+    -fx-stroke-width: 3;
+    -fx-cursor: hand;
+}
+
+.bet-circle-selected {
+    -fx-effect: dropshadow(gaussian, #3d752b, 20, 0.3, 0, 0);
+    -fx-stroke: #gold; -fx-stroke-width: 4;
+}
+
+.bet-circle-text {
+    -fx-font-size: 20px;
+    -fx-text-fill: #163f11;
+    -fx-font-weight: bold;
+}
+
+.menu-button {
+    -fx-font-size: 24px;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-padding: 5;
+}
+
+.menu-button:hover {
+    -fx-background-color: rgba(255,255,255,0.1);
+}
+
+.menu-button:pressed {
+    -fx-background-color: rgba(255,255,255,0.2);
+}
+
+.context-menu {
+    -fx-background-color: #823658; /* dark background */
+    -fx-text-fill: white; /* text color */
+    -fx-padding: 5;
+}
+
+.context-menu.menu-item {
+    -fx-background-color: transparent; /* default for items */
+    -fx-text-fill: white;
+}
+
+.context-menu.menu-item:hover {
+    -fx-background-color: #194223;
+}
+
+.root-pane {
+    -fx-background-image: url("/images/wicked_bg.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+.button {
+    -fx-background-color: linear-gradient(#47114a, #9a16a3);
+    -fx-text-fill: white;
+    -fx-font-weight: bold; -fx-background-radius: 10;
+}
+
+.button-hover {
+    -fx-background-color: linear-gradient(#873cb3, #7f2e8b);
+}
+.button-pressed {
+    -fx-background-color: linear-gradient(#6A228BFF, #6B1E6BFF);
+}
+.text-area {
+    -fx-background-color: rgba(0,0,0,0.6); -fx-text-fill: white;
+}
