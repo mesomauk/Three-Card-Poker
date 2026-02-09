@@ -11,6 +11,8 @@ public class ServerApp extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+        System.out.println("JAVA FX STARTED");
+
         this.primaryStage = primaryStage;
 
         // Load the intro FXML

@@ -6,6 +6,6 @@ ClientHandler.class
 ThreeCardRound.class
 ServerDashboardController.class
 ServerApp.class
-ServerThread.class
 ServerIntroController.class
+ServerThread.class
 Card.class
